@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#root {
+    display: flex;
+    gap: 1vw;
+    width: 100vw;
+    padding: 10vh;
+}
+
+.cardbox {
+    width: 60vw;
+    height: 80vh;
+    border-radius: 50px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 700ms ease-in;
+    flex: 0.5;
+}
+
+.cardbox.cardbox-animation {
+    flex-grow: 5;
+}
+
+
+
